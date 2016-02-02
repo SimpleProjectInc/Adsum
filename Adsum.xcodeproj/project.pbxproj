@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A620AB1C61490F00496AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620AA1C61490F00496AFA /* AppDelegate.swift */; };
+		00A620AD1C61490F00496AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620AC1C61490F00496AFA /* ViewController.swift */; };
+		00A620B01C61490F00496AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A620AE1C61490F00496AFA /* Main.storyboard */; };
+		00A620B21C61490F00496AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A620B11C61490F00496AFA /* Assets.xcassets */; };
+		00A620B51C61490F00496AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A620B31C61490F00496AFA /* LaunchScreen.storyboard */; };
+		00A620C01C61490F00496AFA /* AdsumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620BF1C61490F00496AFA /* AdsumTests.swift */; };
+		00A620CB1C61490F00496AFA /* AdsumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620CA1C61490F00496AFA /* AdsumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A620BC1C61490F00496AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A6209F1C61490F00496AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A620A61C61490F00496AFA;
+			remoteInfo = Adsum;
+		};
+		00A620C71C61490F00496AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A6209F1C61490F00496AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A620A61C61490F00496AFA;
+			remoteInfo = Adsum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A620A71C61490F00496AFA /* Adsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A620AA1C61490F00496AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A620AC1C61490F00496AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A620AF1C61490F00496AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A620B11C61490F00496AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A620B41C61490F00496AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A620B61C61490F00496AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A620BB1C61490F00496AFA /* AdsumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A620BF1C61490F00496AFA /* AdsumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsumTests.swift; sourceTree = "<group>"; };
+		00A620C11C61490F00496AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A620C61C61490F00496AFA /* AdsumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A620CA1C61490F00496AFA /* AdsumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsumUITests.swift; sourceTree = "<group>"; };
+		00A620CC1C61490F00496AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A620A41C61490F00496AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620B81C61490F00496AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620C31C61490F00496AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A6209E1C61490F00496AFA = {
+			isa = PBXGroup;
+			children = (
+				00A620A91C61490F00496AFA /* Adsum */,
+				00A620BE1C61490F00496AFA /* AdsumTests */,
+				00A620C91C61490F00496AFA /* AdsumUITests */,
+				00A620A81C61490F00496AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A620A81C61490F00496AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A620A71C61490F00496AFA /* Adsum.app */,
+				00A620BB1C61490F00496AFA /* AdsumTests.xctest */,
+				00A620C61C61490F00496AFA /* AdsumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A620A91C61490F00496AFA /* Adsum */ = {
+			isa = PBXGroup;
+			children = (
+				00A620AA1C61490F00496AFA /* AppDelegate.swift */,
+				00A620AC1C61490F00496AFA /* ViewController.swift */,
+				00A620AE1C61490F00496AFA /* Main.storyboard */,
+				00A620B11C61490F00496AFA /* Assets.xcassets */,
+				00A620B31C61490F00496AFA /* LaunchScreen.storyboard */,
+				00A620B61C61490F00496AFA /* Info.plist */,
+			);
+			path = Adsum;
+			sourceTree = "<group>";
+		};
+		00A620BE1C61490F00496AFA /* AdsumTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A620BF1C61490F00496AFA /* AdsumTests.swift */,
+				00A620C11C61490F00496AFA /* Info.plist */,
+			);
+			path = AdsumTests;
+			sourceTree = "<group>";
+		};
+		00A620C91C61490F00496AFA /* AdsumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A620CA1C61490F00496AFA /* AdsumUITests.swift */,
+				00A620CC1C61490F00496AFA /* Info.plist */,
+			);
+			path = AdsumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A620A61C61490F00496AFA /* Adsum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A620CF1C61490F00496AFA /* Build configuration list for PBXNativeTarget "Adsum" */;
+			buildPhases = (
+				00A620A31C61490F00496AFA /* Sources */,
+				00A620A41C61490F00496AFA /* Frameworks */,
+				00A620A51C61490F00496AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adsum;
+			productName = Adsum;
+			productReference = 00A620A71C61490F00496AFA /* Adsum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A620BA1C61490F00496AFA /* AdsumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A620D21C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumTests" */;
+			buildPhases = (
+				00A620B71C61490F00496AFA /* Sources */,
+				00A620B81C61490F00496AFA /* Frameworks */,
+				00A620B91C61490F00496AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A620BD1C61490F00496AFA /* PBXTargetDependency */,
+			);
+			name = AdsumTests;
+			productName = AdsumTests;
+			productReference = 00A620BB1C61490F00496AFA /* AdsumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A620C51C61490F00496AFA /* AdsumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A620D51C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumUITests" */;
+			buildPhases = (
+				00A620C21C61490F00496AFA /* Sources */,
+				00A620C31C61490F00496AFA /* Frameworks */,
+				00A620C41C61490F00496AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A620C81C61490F00496AFA /* PBXTargetDependency */,
+			);
+			name = AdsumUITests;
+			productName = AdsumUITests;
+			productReference = 00A620C61C61490F00496AFA /* AdsumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A6209F1C61490F00496AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Simple Project";
+				TargetAttributes = {
+					00A620A61C61490F00496AFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					00A620BA1C61490F00496AFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00A620A61C61490F00496AFA;
+					};
+					00A620C51C61490F00496AFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00A620A61C61490F00496AFA;
+					};
+				};
+			};
+			buildConfigurationList = 00A620A21C61490F00496AFA /* Build configuration list for PBXProject "Adsum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A6209E1C61490F00496AFA;
+			productRefGroup = 00A620A81C61490F00496AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A620A61C61490F00496AFA /* Adsum */,
+				00A620BA1C61490F00496AFA /* AdsumTests */,
+				00A620C51C61490F00496AFA /* AdsumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A620A51C61490F00496AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A620B51C61490F00496AFA /* LaunchScreen.storyboard in Resources */,
+				00A620B21C61490F00496AFA /* Assets.xcassets in Resources */,
+				00A620B01C61490F00496AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620B91C61490F00496AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620C41C61490F00496AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A620A31C61490F00496AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A620AD1C61490F00496AFA /* ViewController.swift in Sources */,
+				00A620AB1C61490F00496AFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620B71C61490F00496AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A620C01C61490F00496AFA /* AdsumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A620C21C61490F00496AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A620CB1C61490F00496AFA /* AdsumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A620BD1C61490F00496AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A620A61C61490F00496AFA /* Adsum */;
+			targetProxy = 00A620BC1C61490F00496AFA /* PBXContainerItemProxy */;
+		};
+		00A620C81C61490F00496AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A620A61C61490F00496AFA /* Adsum */;
+			targetProxy = 00A620C71C61490F00496AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A620AE1C61490F00496AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A620AF1C61490F00496AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A620B31C61490F00496AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A620B41C61490F00496AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A620CD1C61490F00496AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A620CE1C61490F00496AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A620D01C61490F00496AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adsum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.Adsum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A620D11C61490F00496AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adsum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.Adsum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A620D31C61490F00496AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdsumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.AdsumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adsum.app/Adsum";
+			};
+			name = Debug;
+		};
+		00A620D41C61490F00496AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdsumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.AdsumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adsum.app/Adsum";
+			};
+			name = Release;
+		};
+		00A620D61C61490F00496AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdsumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.AdsumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Adsum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		00A620D71C61490F00496AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdsumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.AdsumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Adsum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A620A21C61490F00496AFA /* Build configuration list for PBXProject "Adsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A620CD1C61490F00496AFA /* Debug */,
+				00A620CE1C61490F00496AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A620CF1C61490F00496AFA /* Build configuration list for PBXNativeTarget "Adsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A620D01C61490F00496AFA /* Debug */,
+				00A620D11C61490F00496AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A620D21C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A620D31C61490F00496AFA /* Debug */,
+				00A620D41C61490F00496AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A620D51C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A620D61C61490F00496AFA /* Debug */,
+				00A620D71C61490F00496AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A6209F1C61490F00496AFA /* Project object */;
+}
