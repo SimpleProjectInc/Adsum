@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00A620AB1C61490F00496AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620AA1C61490F00496AFA /* AppDelegate.swift */; };
-		00A620AD1C61490F00496AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620AC1C61490F00496AFA /* ViewController.swift */; };
+		00A620AD1C61490F00496AFA /* ASTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620AC1C61490F00496AFA /* ASTabBarViewController.swift */; };
 		00A620B01C61490F00496AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A620AE1C61490F00496AFA /* Main.storyboard */; };
 		00A620B21C61490F00496AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A620B11C61490F00496AFA /* Assets.xcassets */; };
-		00A620B51C61490F00496AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A620B31C61490F00496AFA /* LaunchScreen.storyboard */; };
 		00A620C01C61490F00496AFA /* AdsumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620BF1C61490F00496AFA /* AdsumTests.swift */; };
 		00A620CB1C61490F00496AFA /* AdsumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620CA1C61490F00496AFA /* AdsumUITests.swift */; };
+		00A620D91C614F8200496AFA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A620D81C614F8200496AFA /* Launch Screen.storyboard */; };
+		00A620DD1C61517200496AFA /* ASNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A620DC1C61517200496AFA /* ASNewsViewController.swift */; };
+		00D8E4541C61813C00AD7605 /* title-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4531C61813C00AD7605 /* title-top.png */; };
+		00D8E45D1C61879300AD7605 /* map-filled-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4551C61879300AD7605 /* map-filled-icon.png */; };
+		00D8E45E1C61879300AD7605 /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4561C61879300AD7605 /* map-icon.png */; };
+		00D8E45F1C61879300AD7605 /* news-filled-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4571C61879300AD7605 /* news-filled-icon.png */; };
+		00D8E4601C61879300AD7605 /* news-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4581C61879300AD7605 /* news-icon.png */; };
+		00D8E4611C61879300AD7605 /* profile-filled-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E4591C61879300AD7605 /* profile-filled-icon.png */; };
+		00D8E4621C61879300AD7605 /* profile-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E45A1C61879300AD7605 /* profile-icon.png */; };
+		00D8E4631C61879300AD7605 /* search_filled-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E45B1C61879300AD7605 /* search_filled-icon.png */; };
+		00D8E4641C61879300AD7605 /* search-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D8E45C1C61879300AD7605 /* search-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,9 @@
 /* Begin PBXFileReference section */
 		00A620A71C61490F00496AFA /* Adsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A620AA1C61490F00496AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00A620AC1C61490F00496AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A620AC1C61490F00496AFA /* ASTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTabBarViewController.swift; sourceTree = "<group>"; };
 		00A620AF1C61490F00496AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A620B11C61490F00496AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00A620B41C61490F00496AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A620B61C61490F00496AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A620BB1C61490F00496AFA /* AdsumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A620BF1C61490F00496AFA /* AdsumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsumTests.swift; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		00A620C61C61490F00496AFA /* AdsumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A620CA1C61490F00496AFA /* AdsumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsumUITests.swift; sourceTree = "<group>"; };
 		00A620CC1C61490F00496AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A620D81C614F8200496AFA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		00A620DC1C61517200496AFA /* ASNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASNewsViewController.swift; sourceTree = "<group>"; };
+		00D8E4531C61813C00AD7605 /* title-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title-top.png"; sourceTree = "<group>"; };
+		00D8E4551C61879300AD7605 /* map-filled-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-filled-icon.png"; path = "Adsum/TabBarIcons/map-filled-icon.png"; sourceTree = "<group>"; };
+		00D8E4561C61879300AD7605 /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-icon.png"; path = "Adsum/TabBarIcons/map-icon.png"; sourceTree = "<group>"; };
+		00D8E4571C61879300AD7605 /* news-filled-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news-filled-icon.png"; path = "Adsum/TabBarIcons/news-filled-icon.png"; sourceTree = "<group>"; };
+		00D8E4581C61879300AD7605 /* news-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news-icon.png"; path = "Adsum/TabBarIcons/news-icon.png"; sourceTree = "<group>"; };
+		00D8E4591C61879300AD7605 /* profile-filled-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-filled-icon.png"; path = "Adsum/TabBarIcons/profile-filled-icon.png"; sourceTree = "<group>"; };
+		00D8E45A1C61879300AD7605 /* profile-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-icon.png"; path = "Adsum/TabBarIcons/profile-icon.png"; sourceTree = "<group>"; };
+		00D8E45B1C61879300AD7605 /* search_filled-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search_filled-icon.png"; path = "Adsum/TabBarIcons/search_filled-icon.png"; sourceTree = "<group>"; };
+		00D8E45C1C61879300AD7605 /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-icon.png"; path = "Adsum/TabBarIcons/search-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				00A620AA1C61490F00496AFA /* AppDelegate.swift */,
-				00A620AC1C61490F00496AFA /* ViewController.swift */,
-				00A620AE1C61490F00496AFA /* Main.storyboard */,
-				00A620B11C61490F00496AFA /* Assets.xcassets */,
-				00A620B31C61490F00496AFA /* LaunchScreen.storyboard */,
-				00A620B61C61490F00496AFA /* Info.plist */,
+				00A620AC1C61490F00496AFA /* ASTabBarViewController.swift */,
+				00A620DC1C61517200496AFA /* ASNewsViewController.swift */,
+				00A620DA1C6150F300496AFA /* UI */,
+				00A620DB1C61510B00496AFA /* Supporting Files */,
+				00A620DE1C61711800496AFA /* TabBarIcons */,
 			);
 			path = Adsum;
 			sourceTree = "<group>";
@@ -123,6 +143,41 @@
 				00A620CC1C61490F00496AFA /* Info.plist */,
 			);
 			path = AdsumUITests;
+			sourceTree = "<group>";
+		};
+		00A620DA1C6150F300496AFA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				00A620AE1C61490F00496AFA /* Main.storyboard */,
+				00A620D81C614F8200496AFA /* Launch Screen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		00A620DB1C61510B00496AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D8E4531C61813C00AD7605 /* title-top.png */,
+				00A620B11C61490F00496AFA /* Assets.xcassets */,
+				00A620B61C61490F00496AFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A620DE1C61711800496AFA /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				00D8E4551C61879300AD7605 /* map-filled-icon.png */,
+				00D8E4561C61879300AD7605 /* map-icon.png */,
+				00D8E4571C61879300AD7605 /* news-filled-icon.png */,
+				00D8E4581C61879300AD7605 /* news-icon.png */,
+				00D8E4591C61879300AD7605 /* profile-filled-icon.png */,
+				00D8E45A1C61879300AD7605 /* profile-icon.png */,
+				00D8E45B1C61879300AD7605 /* search_filled-icon.png */,
+				00D8E45C1C61879300AD7605 /* search-icon.png */,
+			);
+			name = TabBarIcons;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +284,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A620B51C61490F00496AFA /* LaunchScreen.storyboard in Resources */,
 				00A620B21C61490F00496AFA /* Assets.xcassets in Resources */,
+				00D8E45E1C61879300AD7605 /* map-icon.png in Resources */,
+				00D8E4641C61879300AD7605 /* search-icon.png in Resources */,
+				00A620D91C614F8200496AFA /* Launch Screen.storyboard in Resources */,
+				00D8E4601C61879300AD7605 /* news-icon.png in Resources */,
+				00D8E45D1C61879300AD7605 /* map-filled-icon.png in Resources */,
+				00D8E4631C61879300AD7605 /* search_filled-icon.png in Resources */,
 				00A620B01C61490F00496AFA /* Main.storyboard in Resources */,
+				00D8E4541C61813C00AD7605 /* title-top.png in Resources */,
+				00D8E45F1C61879300AD7605 /* news-filled-icon.png in Resources */,
+				00D8E4621C61879300AD7605 /* profile-icon.png in Resources */,
+				00D8E4611C61879300AD7605 /* profile-filled-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A620AD1C61490F00496AFA /* ViewController.swift in Sources */,
+				00A620AD1C61490F00496AFA /* ASTabBarViewController.swift in Sources */,
 				00A620AB1C61490F00496AFA /* AppDelegate.swift in Sources */,
+				00A620DD1C61517200496AFA /* ASNewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +364,6 @@
 				00A620AF1C61490F00496AFA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		00A620B31C61490F00496AFA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00A620B41C61490F00496AFA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Adsum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.Adsum;
@@ -408,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Adsum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleProject.Vlog.Adsum;
@@ -482,6 +541,7 @@
 				00A620D11C61490F00496AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A620D21C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +550,7 @@
 				00A620D41C61490F00496AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A620D51C61490F00496AFA /* Build configuration list for PBXNativeTarget "AdsumUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +559,7 @@
 				00A620D71C61490F00496AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
